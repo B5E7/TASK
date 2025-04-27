@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, input, a, li, ul, div, footer, span, head, body, span {
+  font-family: poppins;
+}
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.row {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+footer .row {
+  overflow: hidden;
+  margin-top: 48px;
+  margin-bottom: 3px;
+}
+footer .col-3 {
+  width: 25%;
+  float: left;
+}
+footer .col-3 h1 {
+  font-size: 24px;
+  font-weight: 700;
+}
+footer .col-3 p {
+  color: #9F9F9F;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 35px;
+}
+footer .col-3 ul li {
+  padding: 3px 20px 45px 20px;
+}
+footer .col-3 ul a {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+footer .col-3 .top {
+  color: #9F9F9F;
+}
+footer .col-3 form input {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 189.336px;
+  font-size: 14px;
+}
+footer .col-3 form a {
+  border-bottom: 2px solid black;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+footer .copy-right {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 35px;
+}
+
+/*# sourceMappingURL=style.css.map */
