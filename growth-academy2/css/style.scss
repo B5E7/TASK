@@ -1,0 +1,151 @@
+h1,h2,h3,h4,h5,h6,p,a,input,button,div,header,section,span,b{
+    font-family: Roboto;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  a{
+      text-decoration: none;
+  }
+  
+  ul{
+      list-style-type: none;
+  }
+  
+  .container{
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .row{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -15px;
+      margin-right: -15px;
+  }
+
+ /*==============Mahmoud Sapry Header And Hero-Section==============*/
+
+ .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 0;
+        ul{
+            display: flex;
+            gap:16px;
+            a{
+                color: #21272A;
+                font-size: 16px;
+                font-weight:500;
+                :hover{
+                    color:#FF5722 ;
+                }
+            }
+            .active {
+                a{
+                    color: #FF5722;
+                }
+            }
+        }
+        .icons {
+            gap:32px;
+            display: flex;
+            button{
+                border: none;
+                outline: none;
+                background: none;
+                
+            }
+        }
+    }
+    .menu{
+        position: relative;
+        .droplist{
+            flex-direction: column;
+            position: absolute;
+            background-color: #FFF;
+            padding: 10px;
+            border-radius: 6px;
+            min-width: 121px;
+            display: none;
+        }
+        :hover .droplist{
+            display: flex;
+        }
+    }
+    
+}
+
+/*==========H E R O ==========*/
+
+.hero{
+    background: linear-gradient(0deg, rgba(255, 204, 188, 0.40) 0%, rgba(255, 204, 188, 0.40) 100%), #FFF;
+    height: 100vh;
+    padding-top: 45px;
+
+    .row{
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            color:#21272A ;
+            font-size: 54px;
+            font-weight: 700;
+            line-height: 110%;
+            padding-bottom: 24px;
+            width: 582px;
+        }
+        p{
+            color:#21272A ;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 140%;
+            width: 582px;
+        }
+        .img{
+            padding-top: 37px;
+        }
+    }
+    .ancor-group{
+        margin-top: 64px;
+        .solid{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+            background-color: #FF5722;
+            padding: 12px 18px;
+            border: 1px solid #FF5722;
+            border-radius: 6px;
+            margin-right: 16px;
+            :hover{
+                background-color: white;
+                color: #FF5722;
+                border:2px solid #FF5722;
+            }
+        }
+        .trans{
+            color: #FF5722;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 12px 18px;
+            border: 2px solid #FF5722;
+            border-radius: 6px;
+            :hover{
+                background-color: #FF5722;
+                color: white;
+            }
+        }
+    }
+}
