@@ -1,0 +1,177 @@
+h1, h2, h3, h4, h5, h6, p, span, input, body, section, footer, button, a, ul, li, header {
+  font-family: roboto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.row {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
+/*MAHMOUD SAPRY HEADER AND  FIRST SECTION*/
+/*=================================H E A D E R ==============================*/
+header {
+  background-image: linear-gradient(to right, #FDD5B1, #FFEBE4);
+}
+header .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  gap: 16px;
+}
+header nav ul a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+header nav ul :hover {
+  color: #FF5722;
+}
+header nav span {
+  color: #FF5722;
+}
+header .ancor-group .trans {
+  color: #FF5722;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #FF5722;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+header .ancor-group .trans:hover {
+  background-color: #FF5722;
+  color: white;
+}
+header .ancor-group .solid {
+  color: white;
+  background-color: #FF5722;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #FF5722;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-left: 16px;
+}
+header .ancor-group .solid:hover {
+  background-color: white;
+  color: #FF5722;
+  border: 2px solid #FF5722;
+}
+
+/*=================================H E R O==============================*/
+.hero {
+  background-image: linear-gradient(to right, #FDD5B1, #FFEBE4);
+}
+.hero .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .row h1 {
+  color: #21272A;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 110%;
+  padding-bottom: 24px;
+  width: 582px;
+}
+.hero .row p {
+  color: #21272A;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 140%;
+  width: 582px;
+}
+.hero .ancor-group {
+  margin-top: 64px;
+}
+.hero .ancor-group .solid {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #FF5722;
+  padding: 12px 18px;
+  border: 1px solid #FF5722;
+  border-radius: 6px;
+  margin-right: 16px;
+}
+.hero .ancor-group .solid:hover {
+  background-color: white;
+  color: #FF5722;
+  border: 2px solid #FF5722;
+}
+.hero .ancor-group .trans {
+  color: #FF5722;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 12px 18px;
+  border: 2px solid #FF5722;
+  border-radius: 6px;
+}
+.hero .ancor-group .trans:hover {
+  background-color: #FF5722;
+  color: white;
+}
+
+/*=================================O U R = F E A T U R E D = C O U R S E S=================================*/
+.courses .heading h2 {
+  font-size: 42px;
+  text-align: center;
+  font-weight: 700;
+  color: #21272A;
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+.courses .heading p {
+  color: #21272A;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+.courses .row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.courses .row .col-item {
+  border: 1px groove;
+}
+.courses .row .col-item .text {
+  padding: 16px 0;
+}
+.courses .row .col-item .text h4 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  color: #21272A;
+}
+.courses .row .col-item .text p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #21272A;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,192 @@
+h1,h2,h3,h4,h5,h6,p,span,input,body,section,footer,button,a,ul,li,header{
+    font-family: roboto;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.container{
+    max-width:1300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.row{
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+/*MAHMOUD SAPRY HEADER AND  FIRST SECTION*/
+
+
+/*=================================H E A D E R ==============================*/
+
+header{
+    background-image: linear-gradient(to right, #FDD5B1, #FFEBE4);
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    nav {
+        ul {
+            display: flex;
+            gap: 16px;
+            a{
+                color: black;
+                text-decoration: none;
+                font-size:16px ;
+                font-weight: 500;
+            }
+            :hover{
+                color: #FF5722;
+            }
+        }
+        span{
+            color:#FF5722 ;
+        }
+    }
+    .ancor-group {
+        .trans{
+            color:#FF5722;
+            font-size:16px ;
+            font-weight: 500;
+            border: 2px solid #FF5722;
+            padding: 10px 16px;
+            text-decoration: none;
+            border-radius: 6px;
+            :hover{
+                background-color: #FF5722;
+                color: white;
+            }
+        }
+        .solid{
+            color: white;
+            background-color: #FF5722;
+            font-size: 16px;
+            font-weight: 500;
+            border: 2px solid #FF5722;
+            padding: 10px 16px;
+            border-radius: 6px;
+            text-decoration: none;
+            margin-left:16px;
+            :hover{
+                background-color: white;
+                color: #FF5722;
+                border:2px solid #FF5722;
+            }
+        }
+    }
+}
+
+/*=================================H E R O==============================*/
+
+.hero{
+    background-image: linear-gradient(to right, #FDD5B1, #FFEBE4);
+    .row{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            color:#21272A ;
+            font-size: 54px;
+            font-weight: 700;
+            line-height: 110%;
+            padding-bottom: 24px;
+            width: 582px;
+        }
+        p{
+            color:#21272A ;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 140%;
+            width: 582px;
+        }
+    }
+    .ancor-group{
+        margin-top: 64px;
+        .solid{
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+            background-color: #FF5722;
+            padding: 12px 18px;
+            border: 1px solid #FF5722;
+            border-radius: 6px;
+            margin-right: 16px;
+            :hover{
+                background-color: white;
+                color: #FF5722;
+                border:2px solid #FF5722;
+            }
+        }
+        .trans{
+            color: #FF5722;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+            padding: 12px 18px;
+            border: 2px solid #FF5722;
+            border-radius: 6px;
+            :hover{
+                background-color: #FF5722;
+                color: white;
+            }
+        }
+    }
+    
+}
+
+
+/*=================================O U R = F E A T U R E D = C O U R S E S=================================*/
+
+
+.courses {
+    .heading {
+        h2{
+            font-size:42px ;
+            text-align: center;
+            font-weight: 700;
+            color:#21272A;
+            margin-top: 40px;
+            margin-bottom: 16px;
+        }
+        p{
+            color: #21272A;
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+        }
+    }
+    .row{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 32px;
+        .col-item{
+            border: 1px groove;
+            .text{
+                padding: 16px 0;
+                h4{
+                    text-align: center;
+                    font-size:24px;
+                    font-weight: 700;
+                    color: #21272A;
+                }
+                p{
+                    text-align: center;
+                    font-size:16px;
+                    font-weight: 400;
+                    color: #21272A;
+                }
+            }
+        }
+    }
+}
