@@ -1,0 +1,68 @@
+h1, h2, h3, h4, h5, h6, p, span, input, div, section, body, a {
+  font-family: Ramabhadra;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+/*MAHMOUD SAPRY What Customers Say SECTION*/
+.review h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400px;
+  color: #334756;
+  padding-bottom: 24px;
+}
+.review h1 span {
+  color: #FF4C29;
+}
+.review .row {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.review .row .item {
+  width: 487px;
+  height: 232px;
+  background-color: #334756;
+  color: white;
+  padding-top: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+  align-items: center;
+}
+.review .row .item p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%;
+  padding-bottom: 15px;
+}
+.review .row .item .row-in {
+  display: flex;
+  gap: 15px;
+}
+.review .row .item .row-in .name h5 {
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.review .row .item .row-in .name h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=style.css.map */
