@@ -1,0 +1,206 @@
+@import url(./grid.css);
+@import url(./font.css);
+
+
+/*_____________VARIABLES____________*/
+
+:root{
+    --grey:#808080;
+    --blue:#4361EE;
+    --black1:#2B2B2B;
+}
+
+/*__________SECTION-2 MAHMOUD SAPRY__________*/
+
+/*________________UPPER PART________________*/
+.identity{
+    padding: 0 15px;
+    .upper-part {
+        .text-img{
+            display: block;
+            margin-top: 100px;
+            position: relative;
+            .text{
+                h5{
+                    text-align: center;
+                    color: var(--grey);
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+            }
+            .img{
+                position: absolute;
+                top: -72px;
+            }
+        }
+
+        .img-row{
+            justify-content: space-between;
+            padding-top: 50px;
+            gap: 82px;
+            flex-wrap: nowrap;
+            overflow-x: scroll;
+            scrollbar-width: none;
+            img{
+                filter: grayscale(100%);
+            }
+        }
+    }
+}
+
+/*____________second-part____________*/
+.second-part{
+    margin-top: 188px;
+    .heading > h3{
+        color: var(--blue);
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .text-group{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        order: 1;
+        .text> h2{
+            color: var(--black1);
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 47px;
+            padding-top: 25px;
+        }
+        .text> p{
+            color: var(--grey);
+            font-size:16px;
+            font-weight: 400;
+            line-height: 26px;
+            padding-top: 20px;
+        }
+
+        /*___________MASKS____________*/
+
+        .masks{
+            gap: 30px;
+            order: 3;
+            .top{
+                box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.06);
+                max-width: 400px;
+                justify-content: center;
+                align-items: center;
+                padding: 30px;
+                gap: 25px;
+                border-radius: 30px;
+                .icon{
+                    width: 40px;
+                    height: 45px;
+                }
+                .text-top {
+                    h4{
+                        color: var(--blue);
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                    p{
+                        color: var(--grey);
+                        font-size: 16px;
+                        font-weight: 400;
+                        max-width: 275px;
+                    }
+                }
+            }
+
+            /*_________BOTTOM MASK________*/
+
+            .bottom{
+                box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.06);
+                max-width: 400px;
+                justify-content: center;
+                align-items: center;
+                padding: 30px;
+                gap: 25px;
+                border-radius: 30px;
+                .icon{
+                    width: 40px;
+                    height: 45px;
+                }
+                .text-bottom {
+                    h4{
+                        color: var(--blue);
+                        font-size: 20px;
+                        font-weight: 500;
+                    }
+                    p{
+                        color: var(--grey);
+                        font-size: 16px;
+                        font-weight: 400;
+                        max-width: 275px;
+                    }
+                }
+            }
+        }
+        .img-group-res{
+            display: none;
+        }
+    }
+    .img-group{
+        position: relative;
+        justify-content: end;
+        order: 2;
+
+        .ball{
+            position: absolute;
+            top: 83%;
+            right: 175px;
+        }
+        .text-circle{
+            position: absolute;
+            top: -19px;
+            right: 36%;
+        }
+    }
+}
+
+
+@media (max-width: 1000px){
+    .col-6{
+        width: 100%;
+    }
+    
+    .second-part {
+        margin-top: 100px;
+        .img-group{
+            display: none;
+        }
+        .text-group{
+            justify-content: center;
+            align-items: center;
+            .text{
+                justify-content: center;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                h2{
+                    font-size: 28px;
+                    line-height: normal;
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+            }
+            .img-group-res{
+                display: block;
+                width: 100%;
+                img{
+                    width: 100%;
+                }
+            }
+            .masks{
+              width: 100%;
+              align-items: center;
+            }
+        }
+    } 
+    .identity .upper-part .text-img .img{
+        display: none;
+    }
+}

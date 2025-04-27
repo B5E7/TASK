@@ -1,0 +1,188 @@
+@import url(./grid.css);
+@import url(./font.css);
+/*_____________VARIABLES____________*/
+:root {
+  --grey:#808080;
+  --blue:#4361EE;
+  --black1:#2B2B2B;
+}
+
+/*__________SECTION-2 MAHMOUD SAPRY__________*/
+/*________________UPPER PART________________*/
+.identity {
+  padding: 0 15px;
+}
+.identity .upper-part .text-img {
+  display: block;
+  margin-top: 100px;
+  position: relative;
+}
+.identity .upper-part .text-img .text h5 {
+  text-align: center;
+  color: var(--grey);
+  font-size: 16px;
+  font-weight: 500;
+}
+.identity .upper-part .text-img .img {
+  position: absolute;
+  top: -72px;
+}
+.identity .upper-part .img-row {
+  justify-content: space-between;
+  padding-top: 50px;
+  gap: 82px;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.identity .upper-part .img-row img {
+  filter: grayscale(100%);
+}
+
+/*____________second-part____________*/
+.second-part {
+  margin-top: 188px;
+}
+.second-part .heading > h3 {
+  color: var(--blue);
+  font-size: 20px;
+  font-weight: 500;
+}
+.second-part .text-group {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  order: 1;
+  /*___________MASKS____________*/
+}
+.second-part .text-group .text > h2 {
+  color: var(--black1);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 47px;
+  padding-top: 25px;
+}
+.second-part .text-group .text > p {
+  color: var(--grey);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 20px;
+}
+.second-part .text-group .masks {
+  gap: 30px;
+  order: 3;
+  /*_________BOTTOM MASK________*/
+}
+.second-part .text-group .masks .top {
+  box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.06);
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 25px;
+  border-radius: 30px;
+}
+.second-part .text-group .masks .top .icon {
+  width: 40px;
+  height: 45px;
+}
+.second-part .text-group .masks .top .text-top h4 {
+  color: var(--blue);
+  font-size: 20px;
+  font-weight: 500;
+}
+.second-part .text-group .masks .top .text-top p {
+  color: var(--grey);
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 275px;
+}
+.second-part .text-group .masks .bottom {
+  box-shadow: 4px 10px 30px 0px rgba(0, 0, 0, 0.06);
+  max-width: 400px;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  gap: 25px;
+  border-radius: 30px;
+}
+.second-part .text-group .masks .bottom .icon {
+  width: 40px;
+  height: 45px;
+}
+.second-part .text-group .masks .bottom .text-bottom h4 {
+  color: var(--blue);
+  font-size: 20px;
+  font-weight: 500;
+}
+.second-part .text-group .masks .bottom .text-bottom p {
+  color: var(--grey);
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 275px;
+}
+.second-part .text-group .img-group-res {
+  display: none;
+}
+.second-part .img-group {
+  position: relative;
+  justify-content: end;
+  order: 2;
+}
+.second-part .img-group .ball {
+  position: absolute;
+  top: 83%;
+  right: 175px;
+}
+.second-part .img-group .text-circle {
+  position: absolute;
+  top: -19px;
+  right: 36%;
+}
+
+@media (max-width: 1000px) {
+  .col-6 {
+    width: 100%;
+  }
+  .second-part {
+    margin-top: 100px;
+  }
+  .second-part .img-group {
+    display: none;
+  }
+  .second-part .text-group {
+    justify-content: center;
+    align-items: center;
+  }
+  .second-part .text-group .text {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .second-part .text-group .text h2 {
+    font-size: 28px;
+    line-height: normal;
+  }
+  .second-part .text-group .text p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .second-part .text-group .img-group-res {
+    display: block;
+    width: 100%;
+  }
+  .second-part .text-group .img-group-res img {
+    width: 100%;
+  }
+  .second-part .text-group .masks {
+    width: 100%;
+    align-items: center;
+  }
+  .identity .upper-part .text-img .img {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
